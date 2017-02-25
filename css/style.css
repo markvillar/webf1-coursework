@@ -1,0 +1,165 @@
+        /*
+*    Student ID: UP773229
+*    WebF1
+*/
+
+
+/*    Hrader Style:   ;*/
+
+header {
+    background: #8660f7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    color: #FFF;
+    font-size: 5em;
+    text-shadow: 4px 2px 1px #5a5a5a;
+}
+
+header h1 a {
+    color: #ffffff;
+}
+
+header h1 a:visited {
+    color: #ffffff;
+}
+
+@media screen and (min-width: 600px) {
+    header li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+        text-shadow: 0 0 1px #181818;
+}
+
+/*    Navigation Style    */
+nav {
+display: block;
+}
+    nav ul {
+    list-style: none;
+    background-color: #6f49e0;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+    nav li {
+    line-height: 45px;
+    height: 45px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    border-bottom: 1px solid #52ccb1;
+}
+    nav a {
+    text-decoration: none;
+    text-shadow: 4px 2px 1px #5a5a5a;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+nav a:hover {
+    background-color: #8661fb;
+}
+nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+nav li {
+    width: 160px;
+    border-bottom: none;
+    height: 80px;
+    line-height: 80px;
+    font-size: 1.7em;
+}
+
+/* Option 1 - Display Inline */
+nav li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+/*Options 2 - Float*/
+/*nav li {
+float: left;
+}
+nav ul {
+overflow: auto;
+width: 600px;
+margin: 0 auto;
+}
+nav {
+background-color: #444;
+}*/
+
+/*    H1   */
+h1 {
+    text-align: center;
+    color: #000;
+}
+h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+h1 a:visited {
+    text-decoration: none;
+    color: #f6f6f6;
+}
+/*    Body Style:   ;*/
+body {
+    background: transparent;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+/*    Content   */
+article {
+    font-size: 1.5em;
+    color: inherit;
+    ;
+    text-align: justify;
+    padding-top: none;
+    padding-bottom: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/*    Reference Style:    */
+article reference {
+    font-size: 1em;
+    font-style: italic;
+    text-align: justify;
+}
+article reference p {
+    padding: 3px;
+}
+/*    Footer Style:    */
+footer {
+  background: rgb(15.9, 0.6, 41.6);
+    background: #744bed;
+    padding-top: 70px;
+    padding-bottom: 120px;
+    font-size: 1.2em;
+}
+footer p {
+    font-size: 1em;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 4px 2px 1px #5a5a5a;
+}
+footer p a {
+    color: #3f7ef9;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black;
+}
+footer p a:visited {
+    color: #fcfcfc;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black;
+}
