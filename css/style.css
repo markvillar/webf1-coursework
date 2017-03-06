@@ -3,12 +3,14 @@
 *    WebF1
 */
 
+/*    Body Style     */
+body {
+  background: #FFF;
+}
 
 /*    Hrader Style:   ;*/
-
 header {
-    background-image: url();
-    background: #376d96;
+    background-color: #255aa1;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -93,22 +95,24 @@ header h1 a:visited {
             display: inline-block;
             margin-right: -4px;
         }
-    }
-/* Options 2 - Float */
-/*
-nav li {
-float: left;
-}
-nav ul {
-overflow: auto;
-width: 600px;
-margin: 0 auto;
-}
 
-nav {
-background-color: #444;
+        /* Options 2 - Float */
+        /*
+        nav li {
+          float: left;
+        }
+
+        nav ul {
+          overflow: auto;
+          width: 600px;
+          margin: 0 auto;
+        }
+
+        nav {
+          background-color: #444;
+        }
+        */
 }
-*/
 
 /*    H1   */
 h1 {
@@ -123,7 +127,7 @@ h1 a:visited {
     color: #f6f6f6;
 }
 /*    Body Style:   ;*/
-body {
+main {
     background: transparent;
     color: #000;
     margin: 0;
@@ -151,9 +155,9 @@ article reference {
 article reference p {
     padding: 3px;
 }
+
 /*    Footer Style:    */
 footer {
-    background: rgb(15.9, 0.6, 41.6);
     background: #539fd8;
     padding-top: 70px;
     padding-bottom: 120px;
