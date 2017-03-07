@@ -159,7 +159,7 @@ article {
 article reference {
     font-size: 1em;
     font-style: italic;
-    text-align: justify;
+    text-align: left;
 }
 article reference p {
     padding: 3px;
