@@ -3,28 +3,32 @@
 *    WebF1
 */
 
-/*    Hrader Style:   ;*/
-#header {
-    padding-top: 20px;
-    background-color: #255aa1;
+body {
+  background: #d8eaf6;
 }
 
-#header h1 {
+/*    Hrader Style:   ;*/
+header {
+    padding-top: 20px;
+    background-color: #376d96;
+}
+
+header h1 {
     color: #fff;
     font-size: 5em;
     text-shadow: 4px 2px 1px #5a5a5a;
 }
 
-#header h1 a {
+header h1 a {
     color: #ffffff;
 }
 
-#header h1 a:visited {
+header h1 a:visited {
     color: #ffffff;
 }
 
 @media screen and (min-width: 600px) {
-    #header li {
+    header li {
         width: 120px;
         border-bottom: none;
         height: 50px;
@@ -50,46 +54,47 @@
       }
 
       body main article {
-        margin: auto;
+        margin-left: 10px;
+        margin-right: 10px;
         font-size: 1.5em;
       }
   }
 
 /*    Navigation Style    */
-  #navigation {
+  nav {
       display: block;
   }
-  #navigation ul {
+  nav ul {
       list-style: none;
       background-color: #351569;
       text-align: center;
       padding: 0;
       margin: 0;
   }
-  #navigation li {
+  nav li {
       line-height: 30px;
       height: 30px;
       font-family: 'Oswald', sans-serif;
       font-size: 1.2em;
       border-bottom: 1px solid #52ccb1;
   }
-  #navigation a {
+  nav a {
       text-decoration: none;
       text-shadow: 4px 2px 1px #5a5a5a;
       color: #fff;
       display: block;
       transition: .3s background-color;
   }
-  #navigation a:hover {
+  nav a:hover {
       background-color: #5a3c8b;
   }
-  #navigation a.active {
+  nav a.active {
       background-color: #fff;
       color: #444;
       cursor: default;
   }
     @media screen and (min-width: 600px) {
-        #navigation li {
+        nav li {
             width: 160px;
             border-bottom: none;
             height: 80px;
@@ -97,24 +102,24 @@
             font-size: 1.7em;
         }
         /* Option 1 - Display Inline */
-        #navigation li {
+        nav li {
             display: inline-block;
             margin-right: -4px;
         }
 
         /* Options 2 - Float */
         /*
-        #navigation li {
+        nav li {
           float: left;
         }
 
-        #navigation ul {
+        nav ul {
           overflow: auto;
           width: 600px;
           margin: 0 auto;
         }
 
-        #navigation {
+        nav {
           background-color: #444;
         }
         */
@@ -134,7 +139,6 @@ h1 a:visited {
 }
 /*    Body Style:   ;*/
 main {
-    background: transparent;
     color: #000;
     margin: 0;
     padding: 0;
@@ -150,39 +154,43 @@ article {
     margin-left: 70px;
     margin-right: 70px;
 }
-article p {
-    padding: 10px;
-}
+
 /*    Reference Style:    */
 article reference {
     font-size: 1em;
     font-style: italic;
-    text-align: justify;
+    text-align: left;
 }
 article reference p {
     padding: 3px;
 }
 
 /*    Footer Style:    */
-#footer {
+footer {
     background: #539fd8;
     padding-top: 70px;
     padding-bottom: 120px;
     font-size: 1.2em;
 }
-#footer p {
+footer p {
     font-size: 1em;
     color: #ffffff;
     text-align: center;
     text-shadow: 4px 2px 1px #5a5a5a;
 }
-#footer p a {
+footer p a {
     color: #b6cdfb;
     text-decoration: none;
     text-shadow: 1px 1px 2px black;
 }
-#footer p a:visited {
+footer p a:visited {
     color: #ffffff;
     text-decoration: none;
     text-shadow: 1px 1px 2px black;
+}
+
+val-img {
+    border:0;
+    width:88px;
+    height:31px;
 }
