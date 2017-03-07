@@ -3,6 +3,10 @@
 *    WebF1
 */
 
+body {
+  background: #d8eaf6;
+}
+
 /*    Hrader Style:   ;*/
 #header {
     padding-top: 20px;
