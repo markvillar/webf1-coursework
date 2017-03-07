@@ -150,9 +150,7 @@ article {
     margin-left: 70px;
     margin-right: 70px;
 }
-article p {
-    padding: 10px;
-}
+
 /*    Reference Style:    */
 article reference {
     font-size: 1em;
