@@ -188,3 +188,9 @@ article reference p {
     text-decoration: none;
     text-shadow: 1px 1px 2px black;
 }
+
+val-img {
+    border:0;
+    width:88px;
+    height:31px;
+}
