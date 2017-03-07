@@ -39,7 +39,7 @@ header h1 a:visited {
         text-shadow: 0 0 1px #181818;
     }
   }
-  @media screen and (max-width: 599px) {
+  @media screen and (max-width: 600px) {
       header {
           text-align: center;
       }
