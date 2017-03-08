@@ -58,6 +58,9 @@ header h1 a:visited {
         margin-right: 10px;
         font-size: 1.5em;
       }
+      body main article h2 {
+        text-align: left;
+      }
   }
 
 /*    Navigation Style    */
