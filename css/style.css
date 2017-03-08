@@ -206,7 +206,7 @@ address > h1 {
   text-align: left;
   color: #FFF;
   font-size: 1.3em;
-  margin: 0;
+  margin-bottom: 5px;
 }
 
 address > p {
