@@ -52,7 +52,13 @@ header h1 a:visited {
       h1 {
           text-align: center;
       }
-
+      nav li {
+          width: auto;
+          height: 20px;
+          line-height: 20px;
+          font-size: 1.7em;
+          border-bottom: none;
+      }
       body main article {
         margin-left: 10px;
         margin-right: 10px;
