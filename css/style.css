@@ -52,11 +52,20 @@ header h1 a:visited {
       h1 {
           text-align: center;
       }
-
+      nav li {
+          width: auto;
+          height: 20px;
+          line-height: 20px;
+          font-size: 1.7em;
+          border-bottom: none;
+      }
       body main article {
         margin-left: 10px;
         margin-right: 10px;
         font-size: 1.5em;
+      }
+      body main article h2 {
+        text-align: left;
       }
   }
 
@@ -169,24 +178,41 @@ article reference p {
 footer {
     background: #539fd8;
     padding-top: 70px;
-    padding-bottom: 120px;
     font-size: 1.2em;
 }
-footer p {
+footer > p {
     font-size: 1em;
     color: #ffffff;
     text-align: center;
     text-shadow: 4px 2px 1px #5a5a5a;
 }
-footer p a {
+footer > p a {
     color: #b6cdfb;
     text-decoration: none;
     text-shadow: 1px 1px 2px black;
 }
-footer p a:visited {
+footer > p a:visited {
     color: #ffffff;
     text-decoration: none;
     text-shadow: 1px 1px 2px black;
+}
+
+address {
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+
+address > h1 {
+  text-align: left;
+  color: #FFF;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+address > p {
+  font-size: 0.8em;
+  color: #FFF;
+  margin: 0;
 }
 
 val-img {
