@@ -188,7 +188,8 @@ h1 a:visited {
 /*    Footer Style:    */
 #footer {
     background: #539fd8;
-    padding-top: 70px;
+    padding-top: 2em;
+    padding-bottom: 2em;
     font-size: 1.2em;
 }
 #footer p {
