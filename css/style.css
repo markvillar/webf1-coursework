@@ -28,7 +28,7 @@ body {
 }
 
 /* Normal Desktop */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 651px) {
     #nav li {
         width: 160px;
         border-bottom: none;
@@ -61,7 +61,7 @@ body {
 }
 
   /* Mobile Size */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 650px) {
     #header {
         text-align: center;
         font-size: 0.8em;
@@ -92,6 +92,8 @@ body {
     .article {
       font-size: 1.5em;
       margin: 1em 1em 1em 1em;
+      padding-left: 0;
+      padding-right: 0;
     }
     .article h2 {
       text-align: left;
