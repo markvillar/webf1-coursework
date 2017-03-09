@@ -27,6 +27,38 @@ body {
     color: #ffffff;
 }
 
+@media screen and (min-width: 600px) {
+      #nav li {
+          width: 160px;
+          border-bottom: none;
+          height: 80px;
+          line-height: 80px;
+          font-size: 1.7em;
+      }
+      /* Option 1 - Display Inline */
+      #nav li {
+          display: inline-block;
+          margin-right: -4px;
+      }
+
+      /* Options 2 - Float */
+      /*
+      #nav li {
+        float: left;
+      }
+
+      #nav ul {
+        overflow: auto;
+        width: 600px;
+        margin: 0 auto;
+      }
+
+      #nav {
+        background-color: #444;
+      }
+      */
+}
+
   /* Mobile Size */
   @media screen and (max-width: 600px) {
     #header {
@@ -62,6 +94,9 @@ body {
     .article h2 {
       text-align: left;
     }
+    #footer {
+      background-color: red;
+    }
 }
 
 /*    Navigation Style    */
@@ -96,38 +131,6 @@ body {
     background-color: #fff;
     color: #444;
     cursor: default;
-}
-
-@media screen and (min-width: 600px) {
-      #nav li {
-          width: 160px;
-          border-bottom: none;
-          height: 80px;
-          line-height: 80px;
-          font-size: 1.7em;
-      }
-      /* Option 1 - Display Inline */
-      #nav li {
-          display: inline-block;
-          margin-right: -4px;
-      }
-
-      /* Options 2 - Float */
-      /*
-      #nav li {
-        float: left;
-      }
-
-      #nav ul {
-        overflow: auto;
-        width: 600px;
-        margin: 0 auto;
-      }
-
-      #nav {
-        background-color: #444;
-      }
-      */
 }
 
 /*    H1   */
