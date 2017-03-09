@@ -60,63 +60,6 @@ body {
     */
 }
 
-  /* Mobile Size */
-  @media screen and (max-width: 650px) {
-    #header {
-        text-align: center;
-        font-size: 0.8em;
-    }
-    #header li {
-        width: 120px;
-        border-bottom: none;
-        height: 50px;
-        line-height: 50px;
-        font-size: 1.4em;
-        text-shadow: 0 0 1px #181818;
-    }
-    #header li {
-      text-align: center;
-      width: auto;
-    }
-
-    h1 {
-        text-align: center;
-    }
-    #nav li {
-        width: auto;
-        height: 10px;
-        line-height: 10px;
-        font-size: 1.3em;
-        border-bottom: none;
-    }
-    article {
-      font-size: 1.5em;
-      margin-left: 1em;
-      margin-right: 1em;
-    }
-    article h2 {
-      text-align: left;
-    }
-    article p {
-      margin-top: auto;
-      margin-bottom: 1em;
-    }
-    article .reference {
-      display: none;
-      font-size: 200px;
-    }
-
-    address {
-      padding-left: 0;
-      padding-bottom: 0;
-    }
-
-    #footer {
-      padding-left: 1em;
-      padding-right: 1em;
-    }
-}
-
 /*    Navigation Style    */
 #nav {
     display: block;
@@ -242,3 +185,60 @@ val-img {
 
 
 /*    Blog Posts Style    */
+
+/* Mobile Size */
+@media screen and (max-width: 650px) {
+  #header {
+      text-align: center;
+      font-size: 0.8em;
+  }
+  #header li {
+      width: 120px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1.4em;
+      text-shadow: 0 0 1px #181818;
+  }
+  #header li {
+    text-align: center;
+    width: auto;
+  }
+
+  h1 {
+      text-align: center;
+  }
+  #nav li {
+      width: auto;
+      height: 10px;
+      line-height: 10px;
+      font-size: 1.3em;
+      border-bottom: none;
+  }
+  article {
+    font-size: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  article h2 {
+    text-align: left;
+  }
+  article p {
+    margin-top: auto;
+    margin-bottom: 1em;
+  }
+  article .reference {
+    display: none;
+    font-size: 200px;
+  }
+
+  address {
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  #footer {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
