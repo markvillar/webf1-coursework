@@ -27,39 +27,6 @@ body {
     color: #ffffff;
 }
 
-/* Normal Desktop */
-@media screen and (min-width: 651px) {
-    #nav li {
-        width: 160px;
-        border-bottom: none;
-        height: 150px;
-        line-height: 150px;
-        font-size: 1.7em;
-    }
-    /* Option 1 - Display Inline */
-    #nav li {
-        display: inline-block;
-        margin-right: -4px;
-    }
-
-    /* Options 2 - Float */
-    /*
-    #nav li {
-      float: left;
-    }
-
-    #nav ul {
-      overflow: auto;
-      width: 600px;
-      margin: 0 auto;
-    }
-
-    #nav {
-      background-color: #444;
-    }
-    */
-}
-
 /*    Navigation Style    */
 #nav {
     display: block;
@@ -80,6 +47,7 @@ body {
 }
 #nav a {
     text-decoration: none;
+    border-bottom: 1px solid #601bd0;
     text-shadow: 4px 2px 1px #5a5a5a;
     color: #fff;
     display: block;
@@ -186,6 +154,40 @@ val-img {
 
 /*    Blog Posts Style    */
 
+
+/* Normal Desktop */
+@media screen and (min-width: 651px) {
+    #nav li {
+        width: 160px;
+        border-bottom: none;
+        height: 150px;
+        line-height: 150px;
+        font-size: 1.7em;
+    }
+    /* Option 1 - Display Inline */
+    #nav li {
+        display: inline-block;
+        margin-right: -4px;
+    }
+
+    /* Options 2 - Float */
+    /*
+    #nav li {
+      float: left;
+    }
+
+    #nav ul {
+      overflow: auto;
+      width: 600px;
+      margin: 0 auto;
+    }
+
+    #nav {
+      background-color: #444;
+    }
+    */
+}
+
 /* Mobile Size */
 @media screen and (max-width: 650px) {
   #header {
@@ -210,9 +212,9 @@ val-img {
   }
   #nav li {
       width: auto;
-      height: 50px;
-      line-height: 50px;
-      font-size: 1.3em;
+      height: 3em;
+      line-height: 3em;
+      font-size: 2em;
       border-bottom: none;
   }
   article {
