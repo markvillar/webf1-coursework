@@ -210,15 +210,15 @@ val-img {
   }
   #nav li {
       width: auto;
-      height: 10px;
-      line-height: 10px;
+      height: 50px;
+      line-height: 50px;
       font-size: 1.3em;
       border-bottom: none;
   }
   article {
-    font-size: 1.5em;
-    margin-left: 0;
-    margin-right: 0;
+    font-size: 1.7em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
   }
   article h2 {
     text-align: left;
@@ -227,16 +227,14 @@ val-img {
     margin-top: auto;
     margin-bottom: 1em;
   }
-  article .reference {
-    display: none;
-    font-size: 200px;
-  }
-
   address {
     padding-left: 0;
     padding-bottom: 0;
   }
-
+  article .reference {
+    display: none;
+    font-size: 200px;
+  }
   #footer {
     padding-left: 1em;
     padding-right: 1em;
