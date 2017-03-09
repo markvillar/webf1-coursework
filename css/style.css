@@ -27,90 +27,6 @@ body {
     color: #ffffff;
 }
 
-/* Normal Desktop */
-@media screen and (min-width: 651px) {
-    #nav li {
-        width: 160px;
-        border-bottom: none;
-        height: 150px;
-        line-height: 150px;
-        font-size: 1.7em;
-    }
-    /* Option 1 - Display Inline */
-    #nav li {
-        display: inline-block;
-        margin-right: -4px;
-    }
-
-    /* Options 2 - Float */
-    /*
-    #nav li {
-      float: left;
-    }
-
-    #nav ul {
-      overflow: auto;
-      width: 600px;
-      margin: 0 auto;
-    }
-
-    #nav {
-      background-color: #444;
-    }
-    */
-}
-
-  /* Mobile Size */
-  @media screen and (max-width: 650px) {
-    #header {
-        text-align: center;
-        font-size: 0.8em;
-    }
-    #header li {
-        width: 120px;
-        border-bottom: none;
-        height: 50px;
-        line-height: 50px;
-        font-size: 1.4em;
-        text-shadow: 0 0 1px #181818;
-    }
-    #header li {
-      text-align: center;
-      width: auto;
-    }
-
-    h1 {
-        text-align: center;
-    }
-    #nav li {
-        width: auto;
-        height: 10px;
-        line-height: 10px;
-        font-size: 1.3em;
-        border-bottom: none;
-    }
-    .article {
-      font-size: 1.5em;
-      margin-left: 1em;
-      margin-right: 1em;
-    }
-    .article h2 {
-      text-align: left;
-    }
-    .article p {
-      margin-top: auto;
-      margin-bottom: 1em;
-    }
-    .article .reference {
-      display: none;
-    }
-
-    #footer {
-      padding-left: 1em;
-      padding-right: 1em;
-    }
-}
-
 /*    Navigation Style    */
 #nav {
     display: block;
@@ -131,6 +47,7 @@ body {
 }
 #nav a {
     text-decoration: none;
+    border-bottom: 1px solid #601bd0;
     text-shadow: 4px 2px 1px #5a5a5a;
     color: #fff;
     display: block;
@@ -165,7 +82,7 @@ h1 a:visited {
 }
 
 /*    Content   */
-.article {
+article {
     font-size: 1.3em;
     color: inherit;
     text-align: justify;
@@ -176,13 +93,14 @@ h1 a:visited {
 }
 
 /*    Reference Style:    */
-.article .reference {
+article .reference {
     font-size: 1em;
     font-style: italic;
     text-align: left;
 }
-.article .reference p {
-    padding: 3px;
+article .reference p {
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 /*    Footer Style:    */
@@ -209,25 +127,25 @@ h1 a:visited {
     text-shadow: 1px 1px 2px black;
 }
 
-.address {
+address {
   padding-left: 20px;
   padding-bottom: 40px;
 }
 
-.address > h1 {
+address > h1 {
   text-align: left;
   color: #FFF;
   font-size: 1.3em;
   margin-bottom: 5px;
 }
 
-.address > p {
+address > p {
   font-size: 0.8em;
   color: #FFF;
   margin: 0;
 }
 
-.val-img {
+val-img {
     border:0;
     width:88px;
     height:31px;
@@ -235,3 +153,92 @@ h1 a:visited {
 
 
 /*    Blog Posts Style    */
+
+
+/* Normal Desktop */
+@media screen and (min-width: 651px) {
+    #nav li {
+        width: 160px;
+        border-bottom: none;
+        height: 150px;
+        line-height: 150px;
+        font-size: 1.7em;
+    }
+    /* Option 1 - Display Inline */
+    #nav li {
+        display: inline-block;
+        margin-right: -4px;
+    }
+
+    /* Options 2 - Float */
+    /*
+    #nav li {
+      float: left;
+    }
+
+    #nav ul {
+      overflow: auto;
+      width: 600px;
+      margin: 0 auto;
+    }
+
+    #nav {
+      background-color: #444;
+    }
+    */
+}
+
+/* Mobile Size */
+@media screen and (max-width: 650px) {
+  #header {
+      text-align: center;
+      font-size: 0.8em;
+  }
+  #header li {
+      width: 120px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1.4em;
+      text-shadow: 0 0 1px #181818;
+  }
+  #header li {
+    text-align: center;
+    width: auto;
+  }
+
+  h1 {
+      text-align: center;
+  }
+  #nav li {
+      width: auto;
+      height: 3em;
+      line-height: 3em;
+      font-size: 2em;
+      border-bottom: none;
+  }
+  article {
+    font-size: 1.7em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  article h2 {
+    text-align: left;
+  }
+  article p {
+    margin-top: auto;
+    margin-bottom: 1em;
+  }
+  address {
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+  article .reference {
+    display: none;
+    font-size: 200px;
+  }
+  #footer {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
