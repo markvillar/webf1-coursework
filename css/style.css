@@ -105,6 +105,11 @@ body {
       display: none;
     }
 
+    .address {
+      padding-left: 0;
+      padding-bottom: 0;
+    }
+
     #footer {
       padding-left: 1em;
       padding-right: 1em;
@@ -165,7 +170,7 @@ h1 a:visited {
 }
 
 /*    Content   */
-.article {
+article {
     font-size: 1.3em;
     color: inherit;
     text-align: justify;
@@ -176,12 +181,12 @@ h1 a:visited {
 }
 
 /*    Reference Style:    */
-.article .reference {
+article .reference {
     font-size: 1em;
     font-style: italic;
     text-align: left;
 }
-.article .reference p {
+article .reference p {
     padding: 3px;
 }
 
@@ -209,25 +214,25 @@ h1 a:visited {
     text-shadow: 1px 1px 2px black;
 }
 
-.address {
+address {
   padding-left: 20px;
   padding-bottom: 40px;
 }
 
-.address > h1 {
+address > h1 {
   text-align: left;
   color: #FFF;
   font-size: 1.3em;
   margin-bottom: 5px;
 }
 
-.address > p {
+address > p {
   font-size: 0.8em;
   color: #FFF;
   margin: 0;
 }
 
-.val-img {
+val-img {
     border:0;
     width:88px;
     height:31px;
