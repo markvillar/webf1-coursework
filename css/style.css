@@ -27,42 +27,44 @@ body {
     color: #ffffff;
 }
 
+/* Normal Desktop */
 @media screen and (min-width: 600px) {
-      #nav li {
-          width: 160px;
-          border-bottom: none;
-          height: 80px;
-          line-height: 80px;
-          font-size: 1.7em;
-      }
-      /* Option 1 - Display Inline */
-      #nav li {
-          display: inline-block;
-          margin-right: -4px;
-      }
+    #nav li {
+        width: 160px;
+        border-bottom: none;
+        height: 150px;
+        line-height: 150px;
+        font-size: 1.7em;
+    }
+    /* Option 1 - Display Inline */
+    #nav li {
+        display: inline-block;
+        margin-right: -4px;
+    }
 
-      /* Options 2 - Float */
-      /*
-      #nav li {
-        float: left;
-      }
+    /* Options 2 - Float */
+    /*
+    #nav li {
+      float: left;
+    }
 
-      #nav ul {
-        overflow: auto;
-        width: 600px;
-        margin: 0 auto;
-      }
+    #nav ul {
+      overflow: auto;
+      width: 600px;
+      margin: 0 auto;
+    }
 
-      #nav {
-        background-color: #444;
-      }
-      */
+    #nav {
+      background-color: #444;
+    }
+    */
 }
 
   /* Mobile Size */
   @media screen and (max-width: 600px) {
     #header {
         text-align: center;
+        font-size: 0.8em;
     }
     #header li {
         width: 120px;
@@ -80,11 +82,11 @@ body {
     h1 {
         text-align: center;
     }
-    #nav > li {
+    #nav li {
         width: auto;
-        height: 20px;
-        line-height: 20px;
-        font-size: 1.7em;
+        height: 10px;
+        line-height: 10px;
+        font-size: 1.3em;
         border-bottom: none;
     }
     .article {
@@ -93,9 +95,6 @@ body {
     }
     .article h2 {
       text-align: left;
-    }
-    #footer {
-      background-color: red;
     }
 }
 
@@ -111,10 +110,10 @@ body {
     margin: 0;
 }
 #nav li {
-    line-height: 30px;
-    height: 30px;
+    line-height: 70px;
+    height: 70px;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.5em;
     border-bottom: 1px solid #52ccb1;
 }
 #nav a {
@@ -145,6 +144,7 @@ h1 a:visited {
     text-decoration: none;
     color: #f6f6f6;
 }
+
 /*    Body Style:   ;*/
 #main {
     margin: 0;
