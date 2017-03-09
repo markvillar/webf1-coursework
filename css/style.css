@@ -183,8 +183,8 @@ section {
     #nav li {
         width: 160px;
         border-bottom: none;
-        height: 150px;
-        line-height: 150px;
+        height: 3.5em;
+        line-height: 3.5em;
         font-size: 1.7em;
     }
     /* Option 1 - Display Inline */
