@@ -151,6 +151,11 @@ val-img {
     height:31px;
 }
 
+.video-wrapper {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
 
 /*    Blog Posts Style    */
 section {
