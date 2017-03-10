@@ -213,8 +213,6 @@ section {
   background-color: #6c6c6c;
   margin: 4em;
   box-shadow: 0 0 5px #888;
-  -moz-box-shadow: 0 0 5px #888;
-  -webkit-box-shadow: 0 0 5px#888;
 }
 
 .image img, .image span {
