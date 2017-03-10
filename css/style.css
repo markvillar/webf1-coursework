@@ -151,17 +151,46 @@ val-img {
     height:31px;
 }
 
+.video-wrapper {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
 
 /*    Blog Posts Style    */
+section {
+  background: #bfd9f6;
+  padding: 1em;
+  /* text-shadow: 1px 1px 2px black; */
+}
 
+.excerpt {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-decoration: none;
+  text-align: justify;
+  font-style: italic;
+}
+
+.excerpt a {
+  text-decoration: none;
+}
+
+.excerpt h2 {
+  text-decoration: none;
+}
+
+.excerpt h2:visited {
+  text-decoration: none;
+}
 
 /* Normal Desktop */
 @media screen and (min-width: 651px) {
     #nav li {
         width: 160px;
         border-bottom: none;
-        height: 150px;
-        line-height: 150px;
+        height: 3.5em;
+        line-height: 3.5em;
         font-size: 1.7em;
     }
     /* Option 1 - Display Inline */
@@ -218,7 +247,7 @@ val-img {
       border-bottom: none;
   }
   article {
-    font-size: 1.7em;
+    font-size: 1.4em;
     margin-left: 0.5em;
     margin-right: 0.5em;
   }
