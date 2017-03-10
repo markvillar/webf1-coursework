@@ -133,7 +133,7 @@ address {
 }
 
 address > h1 {
-  text-align: left;
+  text-align: center;
   color: #FFF;
   font-size: 1.3em;
   margin-bottom: 5px;
