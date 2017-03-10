@@ -65,6 +65,10 @@ body {
 /*    H1   */
 h1 {
     text-align: center;
+    color: #FFF;
+    font-size: 1.2em;
+    font-style: italic;
+    text-shadow: 4px 2px 1px #5a5a5a;
 }
 h1 a {
     text-decoration: none;
@@ -285,9 +289,6 @@ section {
     font-size: 1.4em;
     margin-left: 0.5em;
     margin-right: 0.5em;
-  }
-  article h2 {
-    text-align: left;
   }
   article p {
     margin-top: auto;
