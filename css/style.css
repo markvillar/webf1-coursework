@@ -108,6 +108,8 @@ article .reference p {
     background: #539fd8;
     padding-top: 2em;
     padding-bottom: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
     font-size: 1.2em;
 }
 #footer p {
@@ -133,7 +135,7 @@ address {
 }
 
 address > h1 {
-  text-align: left;
+  text-align: center;
   color: #FFF;
   font-size: 1.3em;
   margin-bottom: 5px;
@@ -169,7 +171,8 @@ section {
   margin-bottom: 2em;
   text-decoration: none;
   text-align: justify;
-  font-style: italic;
+  font-style: normal;;
+  box-shadow: 10px 10px 5px #888888;
 }
 
 .excerpt a {
@@ -183,6 +186,32 @@ section {
 .excerpt h2:visited {
   text-decoration: none;
 }
+
+/* Image Block */
+.image {
+  display: inline-block;
+  border: 1em solid #FFF;
+  background-color: #6c6c6c;
+  margin: 4em;
+  box-shadow: 0 0 5px #888;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+}
+
+.image img, .image span {
+  display: inline-block;;
+  width: 100%;
+}
+
+.image span, .image figcaption {
+  color: #FFF;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+
 
 /* Normal Desktop */
 @media screen and (min-width: 651px) {
