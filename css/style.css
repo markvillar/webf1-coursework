@@ -108,6 +108,8 @@ article .reference p {
     background: #539fd8;
     padding-top: 2em;
     padding-bottom: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
     font-size: 1.2em;
 }
 #footer p {
@@ -169,7 +171,7 @@ section {
   margin-bottom: 2em;
   text-decoration: none;
   text-align: justify;
-  font-style: italic;
+  font-style: normal;;
   box-shadow: 10px 10px 5px #888888;
 }
 
