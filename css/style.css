@@ -62,13 +62,10 @@ body {
     cursor: default;
 }
 
-/*    H1   */
+
 h1 {
     text-align: center;
-    color: #FFF;
-    font-size: 1.2em;
-    font-style: italic;
-    text-shadow: 4px 2px 1px #5a5a5a;
+    color: #000;
 }
 h1 a {
     text-decoration: none;
@@ -80,10 +77,6 @@ h1 a:visited {
 }
 
 /*    Body Style:   ;*/
-#main {
-    margin: 0;
-    padding: 0;
-}
 
 /*    Content   */
 article {
@@ -128,6 +121,14 @@ article h1 {
     padding-right: 4em;
     font-size: 1.2em;
 }
+#footer h2 {
+    text-align: center;
+    color: #FFF;
+    font-style: italic;
+    margin: 0;
+    text-shadow: 4px 2px 1px #5a5a5a;
+}
+
 #footer p {
     font-size: 1em;
     color: #ffffff;
@@ -150,7 +151,7 @@ address {
   padding-bottom: 40px;
 }
 
-address > h1 {
+address > h2 {
   text-align: center;
   color: #FFF;
   font-size: 1.3em;
