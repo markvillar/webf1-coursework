@@ -187,6 +187,32 @@ section {
   text-decoration: none;
 }
 
+/* Image Block */
+.image {
+  display: inline-block;
+  border: 1em solid #FFF;
+  background-color: #6c6c6c;
+  margin: 4em;
+  box-shadow: 0 0 5px #888;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+}
+
+.image img, .image span {
+  display: inline-block;;
+  width: 100%;
+}
+
+.image span, .image figcaption {
+  color: #FFF;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+
+
 /* Normal Desktop */
 @media screen and (min-width: 651px) {
     #nav li {
