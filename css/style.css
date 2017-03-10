@@ -93,14 +93,18 @@ article {
 }
 
 /*    Reference Style:    */
-article .reference {
-    font-size: 1em;
+.reference {
     font-style: italic;
     text-align: left;
 }
-article .reference p {
-    padding-top: 1em;
+.reference h2 {
+  font-size: 2em;
+  font-style: normal;
+  margin: 0;
+}
+.reference p {
     padding-bottom: 1em;
+    margin: 0;
 }
 
 /*    Footer Style:    */
